@@ -1,0 +1,158 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header{
+  color:#f7f7f7;
+  animation-name: color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 60;
+
+}
+
+@keyframes color {
+  0% {
+    color:#f7f7f7;
+    text-shadow: 0 0 0px #f7f7f7;
+  }
+  25 {
+    color:  #f7f7f7;
+    text-shadow: 0 0 10px #FFF01F
+  }
+  50 {
+    color:  #f7f7f7;
+    text-shadow: 0 0 20px #FFF01F
+  }
+  100 {
+   color: #f7f7f7;
+    text-shadow: 0 0 20px #f7f7f7
+  }
+   25% {
+    color:  #f7f7f7;
+    text-shadow: 0 0 20px #FFF01F
+  }
+}
+
+.header:hover {
+  transform: rotate(8deg);
+/*   text-shadow: 0 0 20px #FFF01F; */
+
+}
+
+
+
+.bio {
+  text-align: center;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+  font-family: inherit;
+}
+
+.waveButton {
+  cursor: pointer;
+  background-color: #d5d5d5;
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: inherit;
+  padding: 8px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.waveButton:hover {
+    background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+
+.connectButton {
+    position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: #d5d5d5;
+  margin: 16px ;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: inherit;
+  padding: 8px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.connectButton:hover {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+
+.sendMessage {
+    cursor: pointer;
+  background-color: #d5d5d5;
+  margin-top: -4px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: inherit;
+  padding: 8px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.sendMessage:hover {
+    background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.customMessage {
+    text-align: center;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 4px;
+  font-family: inherit;
+}
+
+.allWaves {
+  text-align: center;
+  color: #fafafa;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+  font-family: inherit;
+  border-radius: 20px;
+}
+
+.bottomMessage {
+  text-align: center;
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.inputField {
+  border-radius: 1px;
+  line-height: 25px;
+  font-size: 15px;
+  padding: 5px 15px;
+  border: 1px;
+  border-radius: 14px;
+  background-color: white;
+}
